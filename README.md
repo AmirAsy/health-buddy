@@ -6,7 +6,7 @@ Step 3 : Make sure you are in your branch
          If NOT in your branch : Press : git checkout -b branch-name ( Please use - between spaces ) ( only run -b the first time if you want to make more than 1 branch )
 Step 4 : Add file 
          Type : git add file-name.html ( add certain file ) OR git add . ( add all file )
-Step 5 : Check changes 
+Step 5 : Check changes : git status
          You should see : file-name.html
 Step 6 : Define your user (use only once)
          Type : git config --global user.name "username"
