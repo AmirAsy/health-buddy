@@ -8,22 +8,20 @@ Step 4 : Add file
          Type : git add file-name.html ( add certain file ) OR git add . ( add all file )
 Step 5 : Check changes 
          You should see : file-name.html
-Step 6 : Commit (save your work)
-         git commit -m "Title of the changes"
-Step 7 : Push to GitHub
-         Type : git push origin branch-name
-Step 8 : Define your user
+Step 6 : Define your user (use only once)
          Type : git config --global user.name "username"
                 git config --global user.email "email"
-Step 9 : Push to GitHub
+Step 7 : Commit (save your work)
+         git commit -m "Title of the changes"
+Step 8 : Push to GitHub
          Type : git push origin branch-name
-Step 10 : Create pull request from GitHub
+Step 9 : Create pull request from GitHub
           base: main
           compare: branch-name
           Title: Title of the changes
           Description: short explanation
           Then click : Create Pull Request
-Step 11 : Review source code and Merge into main
+Step 10 : Review source code and Merge into main
           Click : Merge Pull Request
           Then : Confirm Merge
 Step 12 : ( IMPORTANT ) Update your local main
