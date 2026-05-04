@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.header{
+    height: 110px;
+    background-color: #f9f6e6;
+    padding-top: 10px;
+    padding-left: clamp(0px, 9%, 100px);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 125px;
+    height: 100px;
+}
+.menu-button{
+    background-color: #f9f6e6;
+    border: none;
+    color: black;
+    text-decoration: none;
+    width: auto;
+    font-size: 27px;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display: inline-block;
+}
+.menu-button:hover{
+    background-color: #e1ddc3;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #d6d1c4;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Search Tips*/
+input {
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* Tips layout */
+.tip-card {
+  display: flex;
+  background: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tip-card img {
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
