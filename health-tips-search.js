@@ -11,19 +11,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Fetch data (AJAX)
 function loadTips() {
+  const loading = document.getElementById("loading");
+
+  // ✅ Show loading text
+  loading.style.display = "block";
+  
   fetch("data.json")
     .then(res => res.json())
     .then(data => {
       allTips = data;
+
+      // ❌ Hide loading after data loaded
+      loading.style.display = "none";
+      
       renderTips(data);
     })
-    .catch(err => console.error("Error loading JSON:", err));
+    .catch(err => {
+      console.error("Error loading JSON:", err);
+    
+      loading.textContent = "❌ Failed to load data";
+    });
 }
 
 // Render UI
 function renderTips(data) {
   const container = document.getElementById("tips-container");
+  const resultText = document.getElementById("result-count");
   container.innerHTML = "";
+
+  // ✅ Show result count
+  resultText.textContent = `Found ${data.length} result(s)`;
+
+  // ✅ If no result found
+  if (data.length === 0) {
+    container.innerHTML = `
+      <p class="no-result">
+        ❌ Search not found in the tips
+      </p>
+    `;
+    return;
+  }
 
   data.forEach(tip => {
     const card = `
