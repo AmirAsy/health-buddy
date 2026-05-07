@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Tips</title>
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="navbar"></div>
-    <p>This is the health tips page</p>
-    <script src="navbar.js"></script>
+    
+    <!-- Search -->
+    <div class="container">
+    <h2>Search health tips :</h2>
+    <input type="text" id="search" placeholder="Seach Here">
+
+    <h2>Food Amount Consumption</h2>
+    <p id="loading">Loading...</p>
+    <p id="result-count"></p>
+    <div id="tips-container"></div>
+</div>
+
     <div id="footer"></div>
+
+    <script src="navbar.js"></script>
     <script src="footer.js"></script>
+    <script src="health-tips-search.js"></script>
 </body>
 </html>
