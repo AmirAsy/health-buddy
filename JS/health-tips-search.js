@@ -16,7 +16,7 @@ function loadTips() {
   // ✅ Show loading text
   loading.style.display = "block";
   
-  fetch("data.json")
+  fetch("JSON/data.json")
     .then(res => res.json())
     .then(data => {
       allTips = data;
