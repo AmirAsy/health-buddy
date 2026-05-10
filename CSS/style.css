@@ -298,3 +298,59 @@ html {
     overflow-y: auto;
     background-color: #fafafa;
 }
+
+/* HOME PAGE STYLES */
+.home-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    min-height: 50vh; 
+}
+
+.home-container h1 {
+    font-size: 42px;
+    color: #2b7a78; 
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.home-container .subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.cta-section {
+    background-color: #fbf8f1;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #cfcfcf;
+    max-width: 500px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2b7a78;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1f5a58; 
+}
