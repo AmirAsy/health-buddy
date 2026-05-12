@@ -1,0 +1,19 @@
+.no-result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  color: red;
+}
+
+#result-count {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
