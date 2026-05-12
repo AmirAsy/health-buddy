@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Tips</title>
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <div id="navbar"></div>
-    <p>This is the health tips page</p>
-    <script src="navbar.js"></script>
+
+    <!-- Health Tips Section -->
+    <div class="container">
+
+    <h3>Type a keyword to quickly find related health tips.</h3>
+
+    <h2>Search health tips :</h2>
+    <input type="text" id="search" placeholder="Search Here">
+
+    <h2>Food Amount Consumption</h2>
+
+    <p id="loading">Loading...</p>
+
+    <div class="tips-layout">
+
+      <!-- Alphabet Filter -->
+      <div class="alphabet-filter">
+        <p>Find health tips by first letter</p>
+        <div id="alphabet-buttons"></div>
+      </div>
+
+      <!-- Tips Result -->
+      <div class="tips-content">
+        <p id="result-count"></p>
+        <div id="tips-container"></div>
+      </div>
+
+    </div>
+
+  </div>
+    <!--Back to Top button-->
+    <button id="backToTopBtn">↑ Top</button>
+
     <div id="footer"></div>
-    <script src="footer.js"></script>
+
+    <script src="JS/navbar.js"></script>
+    <script src="JS/footer.js"></script>
+    <script src="JS/health-tips-search.js"></script>
 </body>
 </html>

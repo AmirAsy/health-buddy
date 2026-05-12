@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
-    <style>
-         *{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Health News</title>
+
+  <style>
+    *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
     }
+
+    body{
+      background-color: white;
+    }
+
+    /* MAIN CONTENT */
     .container{
       width: 90%;
       margin: 20px auto;
-      background-color: white;
+      background-color: #f5f5f5;
     }
 
     .title{
@@ -85,15 +92,6 @@
       line-height: 1.4;
     }
 
-    /* FOOTER */
-    footer{
-      background-color: #ece7d7;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 14px;
-    }
-
     /* RESPONSIVE */
     @media(max-width: 768px){
 
@@ -108,14 +106,43 @@
       .news-card{
         width: 100%;
       }
-    </style>
+
+      .nav-links{
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      .title h1{
+        font-size: 30px;
+      }
+    }
+
+  </style>
 </head>
 <body>
-    <div id="navbar"></div>
-    <script src="navbar.js"></script>
-    <div id="footer"></div>
-    <script src="footer.js"></script>
-    <div class="container">
+
+  <!-- NAVBAR -->
+  <nav>
+
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <h2>HEALTH BUDDY</h2>
+    </div>
+
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Symptom Checker</a>
+      <a href="#">Diseases</a>
+      <a href="#">News</a>
+      <a href="#">Health Tips</a>
+      <a href="#">About Site</a>
+      <a href="#">FAQ</a>
+    </div>
+
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="container">
 
     <div class="title">
       <h1>Latest Health News</h1>
@@ -166,5 +193,7 @@
     </div>
 
   </div>
+
+
 </body>
 </html>
