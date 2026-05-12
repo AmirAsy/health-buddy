@@ -1,0 +1,32 @@
+.alphabet-filter {
+  width: 260px;
+}
+
+.alphabet-filter p {
+  font-weight: bold;
+}
+
+#alphabet-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.alphabet-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e1ddc3;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alphabet-btn:hover {
+  background-color: #d6d1c4;
+}
+
+.alphabet-btn.active {
+  background-color: #bcb69d;
+}
