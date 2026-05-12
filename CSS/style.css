@@ -6,7 +6,6 @@ body{
     min-height: 100vh; 
 }
 
-
 .header{
     height: 110px;
     background-color: #f9f6e6;
@@ -74,7 +73,5 @@ html {
 #backToTopBtn:hover {
   background-color: #bcb69d;
 }
-
-
 
 
