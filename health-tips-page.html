@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Tips</title>
+
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/health-tips-layout.css">
     <link rel="stylesheet" href="CSS/health-tips-search.css">
@@ -11,43 +12,71 @@
     <link rel="stylesheet" href="CSS/health-tips-alphabet.css">
     <link rel="stylesheet" href="CSS/health-tips-status.css">
 </head>
+
 <body>
+
+    <!-- Navbar -->
     <div id="navbar"></div>
 
     <!-- Health Tips Section -->
     <div class="container">
 
-    <h3>Type a keyword to quickly find related health tips.</h3>
+        <h3>
+            Type a keyword to quickly find related health tips.
+        </h3>
 
-    <h2>Search health tips :</h2>
-    <input type="text" id="search" placeholder="Search Here">
+        <!-- Loading -->
+        <p id="loading">Loading...</p>
 
-    <h2>Food Amount Consumption</h2>
+        <!-- Search + Alphabet Filter -->
+        <div class="search-filter-row">
 
-    <p id="loading">Loading...</p>
+            <!-- Search Area -->
+            <div class="search-section">
 
-    <div class="tips-layout">
+                <h2>Search health tips :</h2>
 
-      <!-- Alphabet Filter -->
-      <div class="alphabet-filter">
-        <p>Find health tips by first letter</p>
-        <div id="alphabet-buttons"></div>
-      </div>
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search Here"
+                >
 
-      <!-- Tips Result -->
-      <div class="tips-content">
-        <p id="result-count"></p>
-        <div id="tips-container"></div>
-      </div>
+            </div>
+
+            <!-- Alphabet Filter -->
+            <div class="alphabet-filter">
+
+                <p>Find health tips by first letter</p>
+
+                <div id="alphabet-buttons"></div>
+
+            </div>
+
+        </div>
+
+        <!-- Tips Result -->
+        <div class="tips-content">
+
+            <h2>Food Amount Consumption</h2>
+
+            <p id="result-count"></p>
+
+            <div id="tips-container"></div>
+
+        </div>
 
     </div>
 
-  </div>
-    <!--Back to Top button-->
-    <button id="backToTopBtn">↑ Top</button>
+    <!-- Back To Top Button -->
+    <button id="backToTopBtn">
+        ↑ Top
+    </button>
 
+    <!-- Footer -->
     <div id="footer"></div>
 
+    <!-- JS Files -->
     <script src="JS/navbar.js"></script>
     <script src="JS/footer.js"></script>
 
@@ -57,5 +86,6 @@
     <script src="JS/health-tips-main.js"></script>
 
     <script src="JS/back-to-top.js"></script>
+
 </body>
 </html>

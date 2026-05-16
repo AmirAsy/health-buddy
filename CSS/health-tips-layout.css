@@ -4,13 +4,22 @@
   padding: 20px;
 }
 
-.tips-layout {
+/* Search + Filter */
+.search-filter-row {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
-  margin-top: 20px;
+  gap: 80px;
+
+  margin-top: 40px;
 }
 
+/* Search Section */
+.search-section {
+  width: 350px;
+}
+
+/* Tips Content */
 .tips-content {
-  flex: 1;
+  margin-top: 70px;
 }
