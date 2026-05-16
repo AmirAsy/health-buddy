@@ -7,7 +7,6 @@ fetch("JSON/health-news-data.json")
     const container = document.getElementById("news-container");
 
     // FEATURED NEWS
-
     container.innerHTML += `
 
         <div class="line"></div>
@@ -40,7 +39,6 @@ fetch("JSON/health-news-data.json")
     `;
 
     // SMALL NEWS
-
     const smallNews = document.getElementById("small-news");
 
     for(let i = 1; i < data.length; i++){
