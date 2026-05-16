@@ -75,3 +75,33 @@ html {
 }
 
 
+
+/* Container holding the buttons to the bottom left */
+.font-controls {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 99999; 
+}
+
+/* The individual +, -, and reset buttons */
+.font-controls button {
+    background-color: #dcdcdc; 
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    width: 50px; 
+    font-family: sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+}
+
+/* Hover effect */
+.font-controls button:hover {
+    background-color: #c0c0c0;
+}
