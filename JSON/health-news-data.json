@@ -4,7 +4,9 @@
 
         "description":"Many children experience eye strain and headaches due to long screen exposure.",
 
-        "image":"https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+        "image":"https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
+
+        "articleLink":"https://www.healthline.com/health/eye-strain"
     },
 
     {
@@ -12,6 +14,27 @@
 
         "description":"Health authorities warn people to prevent mosquito breeding.",
 
-        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop"
+        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+
+        "articleLink":"https://www.cdc.gov/dengue/index.html"
+    },
+    {
+        "title":"Dengue Fever Cases Rising",
+
+        "description":"Health authorities warn people to prevent mosquito breeding.",
+
+        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+
+        "articleLink":"https://www.example.com/health-news/idk"
+    },
+    {
+        "title":"Dengue Fever Cases Rising",
+
+        "description":"Health authorities warn people to prevent mosquito breeding.",
+
+        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+
+        "articleLink":"https://www.healthline.com/health/dengue-fever"
     }
+
 ]
