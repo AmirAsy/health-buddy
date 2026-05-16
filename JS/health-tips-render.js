@@ -40,6 +40,10 @@ function renderTips(data) {
           <div>
             <h3>${tip.title}</h3>
             <p>${tip.content}</p>
+
+            <a href="${tip.articleLink}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+              Read More
+            </a>
           </div>
         </div>
       `;
