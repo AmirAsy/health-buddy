@@ -1,0 +1,44 @@
+.disease-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.disease-search-box {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#searchBtn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #bcb69d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#searchBtn:hover {
+  background-color: #a9a28a;
+}
+
+.disease-results {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.disease-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-left: 6px solid #bcb69d;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.disease-id {
+  font-weight: bold;
+  color: #555;
+}
