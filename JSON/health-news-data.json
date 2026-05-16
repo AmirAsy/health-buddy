@@ -1,40 +1,40 @@
 [
     {
-        "title":"Eye Problems from Screen Time",
+        "title":"Hantavirus: What Is It & What’s The Situation In Malaysia?",
 
-        "description":"Many children experience eye strain and headaches due to long screen exposure.",
+        "description":"Hantavirus is not on our shores yet, but we are already taking precautions based on what we have learned from the Covid-19 pandemic.",
 
-        "image":"https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
+        "image":"https://www.therakyatpost.com/wp-content/uploads/2026/05/what-is-hantavirus-how-to-protect-ourselves-malaysia.jpg",
 
-        "articleLink":"https://www.healthline.com/health/eye-strain"
+        "articleLink":"https://www.therakyatpost.com/news/2026/05/11/hantavirus-what-is-it-whats-the-situation-in-malaysia/"
     },
 
     {
-        "title":"Dengue Fever Cases Rising",
+        "title":"Ho Chi Minh City Faces Disease Surge",
 
-        "description":"Health authorities warn people to prevent mosquito breeding.",
+        "description":"Health experts in Ho Chi Minh City are raising concerns as multiple infectious diseases spread simultaneously, including dengue fever and hand-foot-and-mouth disease.",
 
-        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+        "image":"https://static-images.vnncdn.net/vps_images_publish/000001/00000Q/2026/5/15/ho-chi-minh-city-warns-of-sharp-rise-in-multiple-infectious-diseases-f1822aa385f14a64b815fe136149d53b-2395.jpg?width=0&s=FUEzJk1D4l92CIOIEd8t5A",
 
-        "articleLink":"https://www.cdc.gov/dengue/index.html"
+        "articleLink":"https://vietnamnet.vn/en/ho-chi-minh-city-warns-of-sharp-rise-in-multiple-infectious-diseases-2516238.html"
     },
     {
-        "title":"Dengue Fever Cases Rising",
+        "title":"What Are The Symptoms of Meningitis & Is There a Vaccine?",
 
-        "description":"Health authorities warn people to prevent mosquito breeding.",
+        "description":"Meningitis is an infection of the protective membranes that surround the brain and spinal cord.",
 
-        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+        "image":"https://ichef.bbci.co.uk/news/1024/cpsprodpb/687a/live/d3423e00-26a1-11f1-9a4b-834c9ce445e3.jpg.webp",
 
-        "articleLink":"https://www.example.com/health-news/idk"
+        "articleLink":"https://www.bbc.com/news/articles/c7432klgyldo"
     },
     {
-        "title":"Dengue Fever Cases Rising",
+        "title":"COVID-19 Is Spreading Again",
 
-        "description":"Health authorities warn people to prevent mosquito breeding.",
+        "description":"Limited COVID-19 surveillance data are hampering vaccination and health strategies, researchers say.",
 
-        "image":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+        "image":"https://ichef.bbci.co.uk/news/1024/cpsprodpb/168E3/production/_114678329_063573067-1.jpg.webp",
 
-        "articleLink":"https://www.healthline.com/health/dengue-fever"
+        "articleLink":"https://www.unmc.edu/healthsecurity/transmission/2025/11/05/covid-19-is-spreading-again-how-serious-is-it-and-what-are-the-symptoms/"
     }
 
 ]

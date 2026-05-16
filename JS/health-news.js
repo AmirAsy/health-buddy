@@ -20,10 +20,15 @@ fetch("JSON/health-news-data.json")
 
             <div class="featured-content">
 
-                <h2>${data[0].title}</h2>
+                <a href="${data[0].articleLink}" target="_blank" rel="noopener noreferrer">
+                    <h2>${data[0].title}</h2>
+                </a>
 
                 <p>${data[0].description}</p>
 
+                <a href="${data[0].articleLink}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                    Read More
+                </a>
             </div>
 
         </div>
@@ -48,9 +53,15 @@ fetch("JSON/health-news-data.json")
                     <img src="${data[i].image}" alt="${data[i].title}">
                 </a>
 
-                <a href="${data[i].articleLink}" target="_blank" rel="noopener noreferrer">
-                    <h2>${data[i].title}</h2>
-                </a>
+                <div class="news-title-row">
+                    <a href="${data[i].articleLink}" target="_blank" rel="noopener noreferrer">
+                        <h2>${data[i].title}</h2>
+                    </a>
+
+                    <a href="${data[i].articleLink}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                        Read More
+                    </a>
+                </div>
 
             </div>
 
