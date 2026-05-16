@@ -1,14 +1,25 @@
 [
-    {
-        "title": "How much protein do kids need?",
-        "category": "food",
-        "image": "assets/ProteinForKid-food.jpg",
-        "content": "Kids need balanced protein intake for growth."
-    },
-    {
-        "title": "How much protein do kids need?",
-        "category": "food",
-        "image": "assets/ProteinForKid-food.jpg",
-        "content": "Kids need balanced protein intake for growth."
-    }
+  {
+    "title": "How much protein do kids need?",
+    "category": "food",
+    "image": "assets/ProteinForKid-food.jpg",
+    "content": "Kids need balanced protein intake for proper growth, muscle development, and immune system support.",
+    "articleLink": "https://www.healthline.com/nutrition/healthy-eating-for-kids"
+  },
+
+  {
+    "title": "Best sources of protein for kids",
+    "category": "food",
+    "image": "assets/ProteinForKid-food.jpg",
+    "content": "Healthy protein sources include eggs, fish, beans, yogurt, nuts, and lean meat.",
+    "articleLink": "https://www.childrens.com/health-wellness/best-sources-of-protein-for-kids"
+  },
+
+  {
+    "title": "Healthy nutrition for children",
+    "category": "food",
+    "image": "assets/ProteinForKid-food.jpg",
+    "content": "Balanced meals with vegetables, fruits, grains, dairy, and protein are important for children's health.",
+    "articleLink": "https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/nutrition-for-kids/art-20049335"
+  }
 ]
