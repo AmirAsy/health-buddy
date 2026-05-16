@@ -30,6 +30,7 @@
 .featured-content h2:hover,
 .news-card h2:hover{
     text-decoration: underline;
+    color: #2b7a78;
 }
 
 
@@ -134,6 +135,7 @@
 .news-card h2:hover,
 .featured-content h2:hover{
     text-decoration: underline;
+    color: #2b7a78;
     cursor: pointer;
 }
 .news-card p{
