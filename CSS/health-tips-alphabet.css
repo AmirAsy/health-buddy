@@ -1,26 +1,35 @@
 .alphabet-filter {
-  width: 260px;
+  width: 700px;
 }
 
 .alphabet-filter p {
   font-weight: bold;
 }
 
+/* Alphabet Container */
 #alphabet-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
+/* Alphabet Button */
 .alphabet-btn {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
+
   border-radius: 50%;
   border: none;
+
   background-color: #e1ddc3;
+
   color: black;
   font-weight: bold;
+
   cursor: pointer;
+
+  transition: 0.3s;
 }
 
 .alphabet-btn:hover {
