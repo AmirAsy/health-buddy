@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disease</title>
+  <title>Disease Search</title>
 
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/health-tips-search.css">
@@ -11,32 +11,52 @@
   <link rel="stylesheet" href="CSS/disease-style.css">
 </head>
 <body>
+
   <div id="navbar"></div>
 
   <main class="disease-container">
-    <h1>Disease Search</h1>
-    <p>  Search for disease-related information using medical terms, symptoms, or condition keywords.</p>
+
+    <h1>Disease & Condition Search</h1>
+
+    <p>
+      Search for diseases and medical conditions such as asthma,
+      diabetes, influenza, or hypertension.
+    </p>
 
     <div class="disease-search-box">
-      <input type="text" id="diseaseSearch" placeholder="Example: fever">
-      <button id="searchBtn">Search</button>
+
+      <input
+        type="text"
+        id="diseaseSearch"
+        placeholder="Example: asthma"
+      >
+
+      <button id="searchBtn">
+        Search
+      </button>
+
     </div>
 
     <p id="loading"></p>
+
     <p id="result-count"></p>
 
     <div id="diseaseResults" class="disease-results"></div>
-    <div class="medical-disclaimer">
-        <h3>Medical Disclaimer</h3>
 
-        <p>
-            The information provided on this page is for educational
-            and informational purposes only. It is not intended to
-            replace professional medical advice, diagnosis, or treatment.
-            Always consult a qualified healthcare professional regarding
-            any medical concerns or symptoms.
-        </p>
+    <div class="medical-disclaimer">
+
+      <h3>Disease Information Disclaimer</h3>
+
+      <p>
+        The disease-related information displayed on this page
+        is provided for educational and informational purposes only.
+        It is not intended to replace professional medical advice,
+        diagnosis, or treatment. Always consult a qualified healthcare
+        professional regarding any medical concerns or conditions.
+      </p>
+
     </div>
+
   </main>
 
   <button id="backToTopBtn">↑ Top</button>
@@ -45,7 +65,10 @@
 
   <script src="JS/navbar.js"></script>
   <script src="JS/footer.js"></script>
+
   <script src="JS/disease.js"></script>
+
   <script src="JS/back-to-top.js"></script>
+
 </body>
 </html>
