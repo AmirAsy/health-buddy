@@ -39,3 +39,8 @@
 .alphabet-btn.active {
   background-color: #bcb69d;
 }
+
+.alphabet-btn:first-child {
+  width: 70px;
+  border-radius: 30px;
+}
