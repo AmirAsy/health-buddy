@@ -11,6 +11,27 @@
     margin-bottom:8px;
 }
 
+/* Make all news page titles black and underline on hover */
+.container h1,
+.featured-content h2,
+.news-card h2{
+    color: #000;
+}
+
+/* Ensure linked titles don't show default link styles, but underline on hover */
+.featured-content a,
+.news-card a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.featured-content a:hover h2,
+.news-card a:hover h2,
+.featured-content h2:hover,
+.news-card h2:hover{
+    text-decoration: underline;
+}
+
 
 .subtitle{
     font-size:20px;
@@ -72,7 +93,37 @@
     font-size:18px;
     line-height:1.5;
     transition:0.3s;
-    text-align:center;
+    text-align:left;
+}
+
+/* Layout title and button on a single row for small news */
+.news-title-row{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:10px;
+    align-items:center;
+    margin-top:6px;
+}
+
+.read-more-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 14px;
+    background:#007BFF;
+    color:#fff;
+    border-radius:4px;
+    text-decoration:none;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+.news-card .read-more-btn{
+    padding:6px 12px;
+}
+
+.read-more-btn:hover{
+    opacity:0.9;
 }
 
 .news-card h2,
@@ -105,5 +156,11 @@
 
     .news-grid{
         grid-template-columns:1fr;
+    }
+
+    .news-title-row{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:6px;
     }
 }
