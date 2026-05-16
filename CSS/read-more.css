@@ -1,0 +1,14 @@
+.read-more-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #bcb69d;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.read-more-btn:hover {
+  background-color: #a9a28a;
+}
