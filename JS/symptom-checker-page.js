@@ -13,7 +13,7 @@ function showResults() {
     
     if (selectedSymptoms.length === 0) {
         resultBox.innerHTML = "<div style='text-align:center; width:100%; color: #666;'>Please select a symptom.</div>";
-        return; // Stop the function here if nothing is selected
+        return; // Stop the function here if nothing is selected    
     }
 
     // Simple Disease Database
@@ -63,4 +63,16 @@ function showResults() {
     }
 
     resultBox.innerHTML = outputHTML;
+}
+
+function resetChecker() {
+    // 1. Uncheck all the symptom checkboxes
+    const checkboxes = document.querySelectorAll('.symptom-checkbox');
+    checkboxes.forEach((box) => {
+        box.checked = false;
+    });
+
+    // 2. Reset the results box back to its default message
+    const resultBox = document.getElementById('result-display');
+    resultBox.innerHTML = "<div style='text-align:center; width:100%; color: #666;'>Select your symptoms and click \"Show Results\"</div>";
 }

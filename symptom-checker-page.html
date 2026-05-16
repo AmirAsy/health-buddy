@@ -28,8 +28,10 @@
                     <label>Fatigue <input type="checkbox" class="symptom-checkbox" value="Fatigue"></label>
                     <label>Chills <input type="checkbox" class="symptom-checkbox" value="Chills"></label>
                 </div>
-
-                <button class="show-results-btn" onclick="showResults()">Show Results</button>
+                    <div class="button-group">
+                        <button class="show-results-btn" onclick="showResults()">Show Results</button>
+                        <button class="reset-btn" onclick="resetChecker()">↺</button> 
+                    </div>
             </div>
 
             <div class="right-panel">
@@ -41,11 +43,12 @@
             </div>
         </div>
     </main>
-
+    <button id = "backToTopBtn">↑ Top</button>
     <div id="footer"></div>
     
     <script src="JS/navbar.js"></script>
     <script src="JS/footer.js"></script>
     <script src="JS/symptom-checker-page.js"></script>
+    <script src="JS/back-to-top.js"></script>
 </body>
 </html>
