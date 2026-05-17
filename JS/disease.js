@@ -114,6 +114,7 @@ function searchDisease() {
 
     });
 
+
 }
 
 /* ---------- DISPLAY RESULTS ---------- */
@@ -124,11 +125,25 @@ function displayDiseaseResults(results) {
 
   results.forEach(item => {
 
+    let definitionInfo = "";
     const diseaseName =
       item[0];
 
-    const icdCode =
-      item[1] || "No ICD code available";
+    fetch('disease.json')
+      .then(response => response.json())
+      .then(data => {
+
+      const match = data.contangent.find(dis =>
+      dis.disease === diseaseName
+      );
+
+     if (match) {
+        definitionInfo = dis.definition;
+      } else {
+        definitionInfo = 'Definition not found';
+     }
+
+    });
 
     diseaseResults.innerHTML += `
 
@@ -137,8 +152,7 @@ function displayDiseaseResults(results) {
         <h2>${diseaseName}</h2>
 
         <p>
-          This result represents a medical disease
-          or condition related to your search keyword.
+          ${definitionInfo}
         </p>
 
       </div>
