@@ -1,17 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Site</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Site</title>
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/about-site-style.css">
 </head>
 <body>
-    <div id="navbar"></div>
-    <p>This is the about site page</p>
-    <div id="footer"></div>
-    
-    <script src="JS/navbar.js"></script>
-    <script src="JS/footer.js"></script>
+
+  <div id="navbar"></div>
+
+  <main class="about-container">
+
+    <section class="about-hero">
+      <h1>About Health Buddy</h1>
+      <p>
+        Health Buddy is a healthcare information website created to help users
+        explore health tips, disease information, latest health news, and basic
+        symptom checking in a simple and user-friendly way.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Project Objectives</h2>
+
+      <ul>
+        <li>To provide basic healthcare information through a responsive website.</li>
+        <li>To help users search diseases and medical conditions using an API.</li>
+        <li>To display health tips using JSON and JavaScript.</li>
+        <li>To practise client-side scripting using HTML, CSS, JavaScript, AJAX, and JSON.</li>
+      </ul>
+    </section>
+
+    <section class="about-section">
+      <h2>Website Features</h2>
+
+      <div class="feature-grid">
+
+        <div class="feature-card">
+          <h3>Symptom Checker</h3>
+          <p>Allows users to select symptoms and view possible related conditions.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Disease Search</h3>
+          <p>Uses an external API to retrieve disease and medical condition data.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Health Tips</h3>
+          <p>Displays health tips from JSON with search, filter, and read more features.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Health News</h3>
+          <p>Provides health-related news and awareness content for users.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Technologies Used</h2>
+
+      <div class="tech-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>AJAX</span>
+        <span>JSON</span>
+        <span>Fetch API</span>
+        <span>GitHub</span>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>API, AJAX & JSON Usage</h2>
+
+      <p>
+        The Disease Search page uses JavaScript Fetch API to retrieve data from
+        an external medical API. The Health Tips page uses JSON data to store
+        and display health tip content dynamically. These features allow the
+        website to update content without reloading the entire page.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Accessibility & Responsiveness</h2>
+
+      <p>
+        Health Buddy includes responsive design for mobile devices, a hamburger
+        navigation menu, readable content layout, back-to-top button, and font
+        size controls to improve accessibility for users.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Meet Our Team</h2>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>Amir Asyrani</h3>
+                <p>Project Member</p>
+            </div>
+
+            <img
+                src="assets/amir.jpg"
+                alt="Amir Asyrani"
+                class="team-image"
+            >
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>Ahmad Faiz Fahmi</h3>
+                <p>Project Member</p>
+            </div>
+
+            <img
+                src="assets/amir.jpg"
+                alt="Amir Asyrani"
+                class="team-image"
+            >
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>Amir Asyraf</h3>
+                <p>Project Member</p>
+            </div>
+
+            <img
+                src="assets/amir.jpg"
+                alt="Amir Asyrani"
+                class="team-image"
+            >
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>Hakim Iskandar</h3>
+                <p>Project Member</p>
+            </div>
+
+            <img
+                src="assets/amir.jpg"
+                alt="Amir Asyrani"
+                class="team-image"
+            >
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about-section disclaimer-box">
+      <h2>Educational Disclaimer</h2>
+
+      <p>
+        This website is created for educational purposes only. The information
+        provided should not be used as a replacement for professional medical
+        advice, diagnosis, or treatment.
+      </p>
+    </section>
+
+  </main>
+
+  <div id="font-size-controls"></div>
+
+  <button id="backToTopBtn">↑ Top</button>
+
+  <div id="footer"></div>
+
+  <script src="JS/navbar.js"></script>
+  <script src="JS/footer.js"></script>
+  <script src="JS/font-size-loader.js"></script>
+  <script src="JS/font-size.js"></script>
+  <script src="JS/back-to-top.js"></script>
+
 </body>
 </html>

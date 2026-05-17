@@ -1,0 +1,135 @@
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 30px;
+}
+
+.about-hero {
+  background-color: #f9f6e6;
+  padding: 35px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.about-hero h1 {
+  color: #257f7a;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d6d1c4;
+  padding-bottom: 8px;
+}
+
+.about-section p,
+.about-section li {
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.feature-grid,
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-card,
+.team-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-left: 6px solid #bcb69d;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.feature-card:hover,
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.team-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-info {
+  flex: 1;
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d6d1c4;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-list span {
+  background-color: #e1ddc3;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.disclaimer-box {
+  background-color: #f5f1df;
+  padding: 25px;
+  border-left: 6px solid #bcb69d;
+  border-radius: 12px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  .about-container {
+    padding: 30px 20px;
+  }
+
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .feature-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-section p,
+  .about-section li {
+    font-size: 16px;
+  }
+}
