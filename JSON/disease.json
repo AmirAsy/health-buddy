@@ -1,7 +1,9 @@
-[
+{
+  "contangent" :
+  [
   {
     "disease": "Cut (laceration)",
-    "definition": ""
+    "definition": "TErpotong"
   },
   {
     "disease": "Back pain",
@@ -2000,4 +2002,5 @@
     "disease": "Alpha thalassemia",
     "definition": ""
   }
-]
+  ]
+}
