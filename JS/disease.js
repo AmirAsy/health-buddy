@@ -136,10 +136,6 @@ function displayDiseaseResults(results) {
 
         <h2>${diseaseName}</h2>
 
-        <p class="disease-id">
-          ICD Code: ${icdCode}
-        </p>
-
         <p>
           This result represents a medical disease
           or condition related to your search keyword.
