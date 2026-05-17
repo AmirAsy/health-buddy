@@ -1,0 +1,2003 @@
+[
+  {
+    "disease": "Cut (laceration)",
+    "definition": ""
+  },
+  {
+    "disease": "Back pain",
+    "definition": ""
+  },
+  {
+    "disease": "Abdominal pain",
+    "definition": ""
+  },
+  {
+    "disease": "Chest pain",
+    "definition": ""
+  },
+  {
+    "disease": "Diabetes mellitus (DM)",
+    "definition": ""
+  },
+  {
+    "disease": "Arteriovenous (AV) fistula",
+    "definition": ""
+  },
+  {
+    "disease": "Arteriovenous malformation (AVM)",
+    "definition": ""
+  },
+  {
+    "disease": "Flu A (Influenza A) infection",
+    "definition": ""
+  },
+  {
+    "disease": "Hepatitis A",
+    "definition": ""
+  },
+  {
+    "disease": "Hemophilia A",
+    "definition": ""
+  },
+  {
+    "disease": "Arteriovenous shunt",
+    "definition": ""
+  },
+  {
+    "disease": "Headache",
+    "definition": ""
+  },
+  {
+    "disease": "Adenoids and tonsils - enlarged",
+    "definition": ""
+  },
+  {
+    "disease": "Hemoglobin A2 - high",
+    "definition": ""
+  },
+  {
+    "disease": "Atrial tachycardia - paroxysmal with av block",
+    "definition": ""
+  },
+  {
+    "disease": "Lower back pain",
+    "definition": ""
+  },
+  {
+    "disease": "Depression",
+    "definition": ""
+  },
+  {
+    "disease": "Linear IgA dermatosis",
+    "definition": ""
+  },
+  {
+    "disease": "Knee pain",
+    "definition": ""
+  },
+  {
+    "disease": "Upper respiratory infection (URI)",
+    "definition": ""
+  },
+  {
+    "disease": "Toothache",
+    "definition": ""
+  },
+  {
+    "disease": "Blood group A positive",
+    "definition": ""
+  },
+  {
+    "disease": "Abdominal aneurysm",
+    "definition": ""
+  },
+  {
+    "disease": "Asthma",
+    "definition": ""
+  },
+  {
+    "disease": "Shortness of breath (dyspnea)",
+    "definition": ""
+  },
+  {
+    "disease": "Bronchitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Sore throat (pharyngitis)",
+    "definition": ""
+  },
+  {
+    "disease": "Sinusitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Cellulitis",
+    "definition": ""
+  },
+  {
+    "disease": "Ear infection (otitis media)",
+    "definition": ""
+  },
+  {
+    "disease": "Abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Shoulder pain",
+    "definition": ""
+  },
+  {
+    "disease": "Esophageal reflux (GERD)",
+    "definition": ""
+  },
+  {
+    "disease": "Motor vehicle accident (MVA)",
+    "definition": ""
+  },
+  {
+    "disease": "Neck pain",
+    "definition": ""
+  },
+  {
+    "disease": "Anxiety",
+    "definition": ""
+  },
+  {
+    "disease": "Rash",
+    "definition": ""
+  },
+  {
+    "disease": "Diabetes - type 2 (adult, non-insulin-independent)",
+    "definition": ""
+  },
+  {
+    "disease": "Leg pain",
+    "definition": ""
+  },
+  {
+    "disease": "Vaginosis - bacterial",
+    "definition": ""
+  },
+  {
+    "disease": "Hay fever (allergic rhinitis)",
+    "definition": ""
+  },
+  {
+    "disease": "Abuse - alcohol",
+    "definition": ""
+  },
+  {
+    "disease": "Coronary artery disease (CAD)",
+    "definition": ""
+  },
+  {
+    "disease": "Chronic obstructive pulmonary disease (COPD)",
+    "definition": ""
+  },
+  {
+    "disease": "Dizziness",
+    "definition": ""
+  },
+  {
+    "disease": "Sinus infection (sinusitis)",
+    "definition": ""
+  },
+  {
+    "disease": "Viral infection",
+    "definition": ""
+  },
+  {
+    "disease": "Gastroenteritis",
+    "definition": ""
+  },
+  {
+    "disease": "Vomiting",
+    "definition": ""
+  },
+  {
+    "disease": "Ankle/foot pain",
+    "definition": ""
+  },
+  {
+    "disease": "Hip pain",
+    "definition": ""
+  },
+  {
+    "disease": "Congestive heart failure (CHF)",
+    "definition": ""
+  },
+  {
+    "disease": "Lipids - high (hyperlipidemia)",
+    "definition": ""
+  },
+  {
+    "disease": "Chest discomfort",
+    "definition": ""
+  },
+  {
+    "disease": "Migraine",
+    "definition": ""
+  },
+  {
+    "disease": "Vulvovaginitis - candidal",
+    "definition": ""
+  },
+  {
+    "disease": "Fatigue",
+    "definition": ""
+  },
+  {
+    "disease": "Ankle sprain",
+    "definition": ""
+  },
+  {
+    "disease": "Blood sugar - high",
+    "definition": ""
+  },
+  {
+    "disease": "Pelvic pain",
+    "definition": ""
+  },
+  {
+    "disease": "Fainting (syncope)",
+    "definition": ""
+  },
+  {
+    "disease": "COPD exacerbation",
+    "definition": ""
+  },
+  {
+    "disease": "Uterine bleeding - abnormal",
+    "definition": ""
+  },
+  {
+    "disease": "Foot pain",
+    "definition": ""
+  },
+  {
+    "disease": "Diabetes - type 1 (juvenile, insulin-dependent)",
+    "definition": ""
+  },
+  {
+    "disease": "Ear pain",
+    "definition": ""
+  },
+  {
+    "disease": "Foot or leg swelling (edema)",
+    "definition": ""
+  },
+  {
+    "disease": "Ear infection - short-term (otitis media - acute)",
+    "definition": ""
+  },
+  {
+    "disease": "Dermatitis",
+    "definition": ""
+  },
+  {
+    "disease": "Tooth abscess",
+    "definition": ""
+  },
+  {
+    "disease": "False labor",
+    "definition": ""
+  },
+  {
+    "disease": "Arm pain",
+    "definition": ""
+  },
+  {
+    "disease": "Dermatitis - contact",
+    "definition": ""
+  },
+  {
+    "disease": "Vaginal discharge",
+    "definition": ""
+  },
+  {
+    "disease": "Muscle strain",
+    "definition": ""
+  },
+  {
+    "disease": "Mental state - altered",
+    "definition": ""
+  },
+  {
+    "disease": "Sore throat",
+    "definition": ""
+  },
+  {
+    "disease": "Flank pain",
+    "definition": ""
+  },
+  {
+    "disease": "Acne",
+    "definition": ""
+  },
+  {
+    "disease": "Lower leg injury",
+    "definition": ""
+  },
+  {
+    "disease": "Hand pain",
+    "definition": ""
+  },
+  {
+    "disease": "Head injury",
+    "definition": ""
+  },
+  {
+    "disease": "Vertigo",
+    "definition": ""
+  },
+  {
+    "disease": "Epigastric pain",
+    "definition": ""
+  },
+  {
+    "disease": "Tonsillitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "HIV positive",
+    "definition": ""
+  },
+  {
+    "disease": "Wrist pain",
+    "definition": ""
+  },
+  {
+    "disease": "Vaginitis",
+    "definition": ""
+  },
+  {
+    "disease": "Eye pain",
+    "definition": ""
+  },
+  {
+    "disease": "Joint pain (arthralgia)",
+    "definition": ""
+  },
+  {
+    "disease": "Obesity",
+    "definition": ""
+  },
+  {
+    "disease": "Folliculitis",
+    "definition": ""
+  },
+  {
+    "disease": "AIDS",
+    "definition": ""
+  },
+  {
+    "disease": "Hand injury",
+    "definition": ""
+  },
+  {
+    "disease": "Miscarriage",
+    "definition": ""
+  },
+  {
+    "disease": "Nausea",
+    "definition": ""
+  },
+  {
+    "disease": "Shoulder or upper arm injury",
+    "definition": ""
+  },
+  {
+    "disease": "Atopic dermatitis",
+    "definition": ""
+  },
+  {
+    "disease": "Cervicitis",
+    "definition": ""
+  },
+  {
+    "disease": "Pap smear - abnormal",
+    "definition": ""
+  },
+  {
+    "disease": "Hives (urticaria)",
+    "definition": ""
+  },
+  {
+    "disease": "Stroke",
+    "definition": ""
+  },
+  {
+    "disease": "Eczema",
+    "definition": ""
+  },
+  {
+    "disease": "Weight loss",
+    "definition": ""
+  },
+  {
+    "disease": "Pancreatitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Fibromyalgia",
+    "definition": ""
+  },
+  {
+    "disease": "Conjunctivitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Radiculopathy",
+    "definition": ""
+  },
+  {
+    "disease": "Pelvic inflammatory disease (PID)",
+    "definition": ""
+  },
+  {
+    "disease": "Cigarette smoker",
+    "definition": ""
+  },
+  {
+    "disease": "Hernia - inguinal",
+    "definition": ""
+  },
+  {
+    "disease": "Boil (furuncle)",
+    "definition": ""
+  },
+  {
+    "disease": "Breast pain",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - iron deficiency",
+    "definition": ""
+  },
+  {
+    "disease": "Ankle fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Liver (hepatic) function tests abnormal",
+    "definition": ""
+  },
+  {
+    "disease": "Back strain",
+    "definition": ""
+  },
+  {
+    "disease": "Kidney (renal) insufficiency - long-term",
+    "definition": ""
+  },
+  {
+    "disease": "Tuberculosis skin test (PPD) reactive",
+    "definition": ""
+  },
+  {
+    "disease": "Rectal bleeding",
+    "definition": ""
+  },
+  {
+    "disease": "Muscle aches (myalgia)",
+    "definition": ""
+  },
+  {
+    "disease": "Costochondritis",
+    "definition": ""
+  },
+  {
+    "disease": "Kidney failure (short-term renal failure)",
+    "definition": ""
+  },
+  {
+    "disease": "Absence of menstrual periods (amenorrhea)",
+    "definition": ""
+  },
+  {
+    "disease": "Sleep apnea",
+    "definition": ""
+  },
+  {
+    "disease": "Angina - unstable",
+    "definition": ""
+  },
+  {
+    "disease": "Pyelonephritis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Corneal abrasions",
+    "definition": ""
+  },
+  {
+    "disease": "Dysfunctional uterine bleeding (DUB)",
+    "definition": ""
+  },
+  {
+    "disease": "Rheumatoid arthritis (RA)",
+    "definition": ""
+  },
+  {
+    "disease": "Athlete's foot (tinea pedis)",
+    "definition": ""
+  },
+  {
+    "disease": "Toe pain",
+    "definition": ""
+  },
+  {
+    "disease": "Drug abuse - mixed",
+    "definition": ""
+  },
+  {
+    "disease": "Psoriasis",
+    "definition": ""
+  },
+  {
+    "disease": "Toxicity - alcohol",
+    "definition": ""
+  },
+  {
+    "disease": "Toenail infection (paronychia)",
+    "definition": ""
+  },
+  {
+    "disease": "Elbow pain",
+    "definition": ""
+  },
+  {
+    "disease": "Hyperthyroidism",
+    "definition": ""
+  },
+  {
+    "disease": "Reactive airway disease (RAD)",
+    "definition": ""
+  },
+  {
+    "disease": "Alcohol abuse - continuous",
+    "definition": ""
+  },
+  {
+    "disease": "Deep vein thrombosis (DVT)",
+    "definition": ""
+  },
+  {
+    "disease": "Menstrual cycle - irregular",
+    "definition": ""
+  },
+  {
+    "disease": "Pharyngeal exudates",
+    "definition": ""
+  },
+  {
+    "disease": "Chlamydia infect",
+    "definition": ""
+  },
+  {
+    "disease": "Liver cirrhosis",
+    "definition": ""
+  },
+  {
+    "disease": "Bronchiolitis",
+    "definition": ""
+  },
+  {
+    "disease": "Nail infection (paronychia)",
+    "definition": ""
+  },
+  {
+    "disease": "Poison ivy",
+    "definition": ""
+  },
+  {
+    "disease": "Animal bite",
+    "definition": ""
+  },
+  {
+    "disease": "Angina pectoris",
+    "definition": ""
+  },
+  {
+    "disease": "Epididymitis",
+    "definition": ""
+  },
+  {
+    "disease": "Jaw pain",
+    "definition": ""
+  },
+  {
+    "disease": "Major depression - recurrent",
+    "definition": ""
+  },
+  
+  {
+    "disease": "Diabetic ketoacidosis (DKA)",
+    "definition": ""
+  },
+  {
+    "disease": "Appendicitis",
+    "definition": ""
+  },
+  {
+    "disease": "Benign prostatic hypertrophy (BPH)",
+    "definition": ""
+  },
+  {
+    "disease": "Hearing loss",
+    "definition": ""
+  },
+  {
+    "disease": "Foot ulcer - diabetic",
+    "definition": ""
+  },
+  {
+    "disease": "Knee sprain",
+    "definition": ""
+  },
+  {
+    "disease": "Ingrown nail",
+    "definition": ""
+  },
+  {
+    "disease": "Cocaine abuse",
+    "definition": ""
+  },
+  {
+    "disease": "Tremor",
+    "definition": ""
+  },
+  {
+    "disease": "Asthma - mild persistent",
+    "definition": ""
+  },
+  {
+    "disease": "Headache - tension",
+    "definition": ""
+  },
+  {
+    "disease": "Asthma - moderate persistent",
+    "definition": ""
+  },
+  {
+    "disease": "Asthma - mild intermittent",
+    "definition": ""
+  },
+  {
+    "disease": "Conjunctivitis - allergic",
+    "definition": ""
+  },
+  {
+    "disease": "Difficulty walking",
+    "definition": ""
+  },
+  {
+    "disease": "Pleuritic pain",
+    "definition": ""
+  },
+  {
+    "disease": "Panic attack",
+    "definition": ""
+  },
+  {
+    "disease": "Neuropathy - diabetic",
+    "definition": ""
+  },
+  {
+    "disease": "Bipolar disorder - mixed",
+    "definition": ""
+  },
+  {
+    "disease": "Hair loss (alopecia)",
+    "definition": ""
+  },
+  {
+    "disease": "Radius fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Finger pain",
+    "definition": ""
+  },
+  {
+    "disease": "Hernia - ventral",
+    "definition": ""
+  },
+  {
+    "disease": "Bipolar disorder - manic phase",
+    "definition": ""
+  },
+  {
+    "disease": "Metatarsal bone - plantar flexed",
+    "definition": ""
+  },
+  {
+    "disease": "Skin tag",
+    "definition": ""
+  },
+  {
+    "disease": "Pain - neuropathic",
+    "definition": ""
+  },
+  {
+    "disease": "Ringworm - scalp (tinea capitis)",
+    "definition": ""
+  },
+  {
+    "disease": "Generalized anxiety disorder (GAD)",
+    "definition": ""
+  },
+  {
+    "disease": "Transient ischemic attack",
+    "definition": ""
+  },
+  {
+    "disease": "Rectal pain",
+    "definition": ""
+  },
+  {
+    "disease": "Biliary colic",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonary embolism",
+    "definition": ""
+  },
+  {
+    "disease": "Ethanol withdrawal",
+    "definition": ""
+  },
+  {
+    "disease": "Testicular pain",
+    "definition": ""
+  },
+  {
+    "disease": "Humerus fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Alzheimer's disease",
+    "definition": ""
+  },
+  {
+    "disease": "Indigestion (dyspepsia)",
+    "definition": ""
+  },
+  {
+    "disease": "Sputum production",
+    "definition": ""
+  },
+  {
+    "disease": "Keratosis - actinic",
+    "definition": ""
+  },
+  {
+    "disease": "Fluid in the ear (otitis media - serous)",
+    "definition": ""
+  },
+  {
+    "disease": "Callus",
+    "definition": ""
+  },
+    {
+    "disease": "Genital warts",
+    "definition": ""
+  },
+  {
+    "disease": "Urine retention",
+    "definition": ""
+  },
+  {
+    "disease": "Bunion",
+    "definition": ""
+  },
+  {
+    "disease": "Ovaries - cystic",
+    "definition": ""
+  },
+  {
+    "disease": "Jock itch (tinea cruris)",
+    "definition": ""
+  },
+  {
+    "disease": "Eye injury",
+    "definition": ""
+  },
+  {
+    "disease": "Neck mass",
+    "definition": ""
+  },
+  {
+    "disease": "Maculopapular rash",
+    "definition": ""
+  },
+  {
+    "disease": "Heel pain",
+    "definition": ""
+  },
+  {
+    "disease": "Bipolar disorder - depressed phase",
+    "definition": ""
+  },
+  {
+    "disease": "Gonorrhea",
+    "definition": ""
+  },
+  {
+    "disease": "Renal colic",
+    "definition": ""
+  },
+  {
+    "disease": "Common cold",
+    "definition": ""
+  },
+  {
+    "disease": "Suicide attempt",
+    "definition": ""
+  },
+  {
+    "disease": "Restless legs",
+    "definition": ""
+  },
+  {
+    "disease": "Chest trauma",
+    "definition": ""
+  },
+  {
+    "disease": "Soft tissue neoplasm - uncertain behavior",
+    "definition": ""
+  },
+  {
+    "disease": "Rash - papular",
+    "definition": ""
+  },
+  {
+    "disease": "Eye foreign body",
+    "definition": ""
+  },
+  {
+    "disease": "Pregnancy - ectopic",
+    "definition": ""
+  },
+  {
+    "disease": "Triglycerides - high",
+    "definition": ""
+  },
+  {
+    "disease": "Head & neck cancer",
+    "definition": ""
+  },
+  {
+    "disease": "Severe vomiting during pregnancy (hyperemesis)",
+    "definition": ""
+  },
+  {
+    "disease": "Hammer toe",
+    "definition": ""
+  },
+  {
+    "disease": "Pelvic mass",
+    "definition": ""
+  },
+  {
+    "disease": "Shoulder strain",
+    "definition": ""
+  },
+  {
+    "disease": "Attention deficit hyperactivity disorder (ADHD/ADD)",
+    "definition": ""
+  },
+  {
+    "disease": "Rosacea",
+    "definition": ""
+  },
+  {
+    "disease": "Respiratory failure",
+    "definition": ""
+  },
+  {
+    "disease": "Thrombophlebitis - superficial",
+    "definition": ""
+  },
+  {
+    "disease": "Sexual assault",
+    "definition": ""
+  },
+  {
+    "disease": "Angioedema",
+    "definition": ""
+  },
+  {
+    "disease": "Ascites",
+    "definition": ""
+  },
+  {
+    "disease": "Perirectal abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Sodium - low (hyponatremia)",
+    "definition": ""
+  },
+  {
+    "disease": "Lichen simplex chronicus",
+    "definition": ""
+  },
+  {
+    "disease": "Hip or thigh injury",
+    "definition": ""
+  },
+  {
+    "disease": "Obstructive sleep apnea (OSA)",
+    "definition": ""
+  },
+  {
+    "disease": "Varices",
+    "definition": ""
+  },
+  {
+    "disease": "Canker sore",
+    "definition": ""
+  },
+  {
+    "disease": "Peptic ulcer",
+    "definition": ""
+  },
+  {
+    "disease": "Tonsillar abscess",
+    "definition": ""
+  },
+    {
+    "disease": "Colitis",
+    "definition": ""
+  },
+  {
+    "disease": "Laryngitis",
+    "definition": ""
+  },
+  {
+    "disease": "Vaginitis - atrophic",
+    "definition": ""
+  },
+  {
+    "disease": "Eczema - nummular",
+    "definition": ""
+  },
+  {
+    "disease": "Tooth fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Vision - diminished",
+    "definition": ""
+  },
+  {
+    "disease": "Abortion",
+    "definition": ""
+  },
+  {
+    "disease": "Thyroid abnormality other",
+    "definition": ""
+  },
+  {
+    "disease": "Ataxia",
+    "definition": ""
+  },
+  {
+    "disease": "Asthma - severe persistent",
+    "definition": ""
+  },
+  {
+    "disease": "Shoulder sprain",
+    "definition": ""
+  },
+  {
+    "disease": "Excessive sleepiness (somnolence)",
+    "definition": ""
+  },
+  {
+    "disease": "Feeding problem",
+    "definition": ""
+  },
+  {
+    "disease": "Aortic stenosis",
+    "definition": ""
+  },
+  {
+    "disease": "Osteopenia",
+    "definition": ""
+  },
+  {
+    "disease": "Prostate cancer",
+    "definition": ""
+  },
+  {
+    "disease": "Macular rash",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonary edema",
+    "definition": ""
+  },
+  {
+    "disease": "Hypertension with pregnancy",
+    "definition": ""
+  },
+  {
+    "disease": "Parkinsons",
+    "definition": ""
+  },
+  {
+    "disease": "Breast abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Tenosynovitis",
+    "definition": ""
+  },
+  {
+    "disease": "Heroin abuse",
+    "definition": ""
+  },
+  {
+    "disease": "Lou Gehrig's disease (amyotrophic lateral sclerosis; ALS)",
+    "definition": ""
+  },
+  {
+    "disease": "Abdominal abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Alopecia areata",
+    "definition": ""
+  },
+  {
+    "disease": "Calf pain",
+    "definition": ""
+  },
+  {
+    "disease": "Smoke inhalation injury",
+    "definition": ""
+  },
+  {
+    "disease": "Dental/mouth abnormality",
+    "definition": ""
+  },
+  {
+    "disease": "Scoliosis",
+    "definition": ""
+  },
+  {
+    "disease": "Anal fissure",
+    "definition": ""
+  },
+  {
+    "disease": "Cardiac arrest",
+    "definition": ""
+  },
+  {
+    "disease": "Abdominal mass",
+    "definition": ""
+  },
+  {
+    "disease": "Ulna fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Three vessel coronary artery disease",
+    "definition": ""
+  },
+  {
+    "disease": "Carbuncle",
+    "definition": ""
+  },
+  {
+    "disease": "Dermatofibroma",
+    "definition": ""
+  },
+  {
+    "disease": "Carotid artery disease",
+    "definition": ""
+  },
+  {
+    "disease": "Non-Hodgkin's lymphoma",
+    "definition": ""
+  },
+  {
+    "disease": "Vasovagal attack",
+    "definition": ""
+  },
+  {
+    "disease": "Pustules",
+    "definition": ""
+  },
+  {
+    "disease": "Galactorrhea",
+    "definition": ""
+  },
+  {
+    "disease": "Narcotic abuse",
+    "definition": ""
+  },
+  {
+    "disease": "Lymphoma",
+    "definition": ""
+  },
+    {
+    "disease": "Suprapubic pain",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - microcytic",
+    "definition": ""
+  },
+  {
+    "disease": "Muscle weakness",
+    "definition": ""
+  },
+  {
+    "disease": "Trigger finger",
+    "definition": ""
+  },
+  {
+    "disease": "Infection of the vulva and vagina",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonary fibrosis - interstitial",
+    "definition": ""
+  },
+  {
+    "disease": "Patella tendinitis/bursitis",
+    "definition": ""
+  },
+  {
+    "disease": "Keratosis - pilaris",
+    "definition": ""
+  },
+  {
+    "disease": "Tuberculosis - active",
+    "definition": ""
+  },
+  {
+    "disease": "Glucose intolerance",
+    "definition": ""
+  },
+  {
+    "disease": "Battered person",
+    "definition": ""
+  },
+  {
+    "disease": "Hemangioma",
+    "definition": ""
+  },
+  {
+    "disease": "Extremity ulcer",
+    "definition": ""
+  },
+  {
+    "disease": "Tibial plateau fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Appetite loss",
+    "definition": ""
+  },
+  {
+    "disease": "Hand cellulitis",
+    "definition": ""
+  },
+  {
+    "disease": "Preeclampsia",
+    "definition": ""
+  },
+  {
+    "disease": "Stomatitis",
+    "definition": ""
+  },
+  {
+    "disease": "Sickle cell anemia",
+    "definition": ""
+  },
+  {
+    "disease": "Prurigo nodularis",
+    "definition": ""
+  },
+  {
+    "disease": "Clot on heart or vessel wall (mural thrombus)",
+    "definition": ""
+  },
+  {
+    "disease": "Nail dystrophy - acquired",
+    "definition": ""
+  },
+  {
+    "disease": "Delirium tremens",
+    "definition": ""
+  },
+  {
+    "disease": "Tonsils - large",
+    "definition": ""
+  },
+  {
+    "disease": "Headache - cluster",
+    "definition": ""
+  },
+  {
+    "disease": "Gastric ulcer",
+    "definition": ""
+  },
+  {
+    "disease": "Neuroma",
+    "definition": ""
+  },
+  {
+    "disease": "Gynecomastia",
+    "definition": ""
+  },
+  {
+    "disease": "Lymphadenitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Coin lesion",
+    "definition": ""
+  },
+  {
+    "disease": "Brain bruise (cerebral contusion)",
+    "definition": ""
+  },
+  {
+    "disease": "Renal mass",
+    "definition": ""
+  },
+  {
+    "disease": "Pilar cyst",
+    "definition": ""
+  },
+  {
+    "disease": "Prolactin - high (hyperprolactinemia)",
+    "definition": ""
+  },
+  {
+    "disease": "Sprain",
+    "definition": ""
+  },
+  {
+    "disease": "Rhabdomyolysis",
+    "definition": ""
+  },
+  {
+    "disease": "Emotional disorder",
+    "definition": ""
+  },
+  {
+    "disease": "Oral ulcer",
+    "definition": ""
+  },
+  {
+    "disease": "Pneumonia - aspiration",
+    "definition": ""
+  },
+  {
+    "disease": "Parapharyngeal abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Adnexal mass",
+    "definition": ""
+  },
+  {
+    "disease": "Pyogenic granuloma",
+    "definition": ""
+  },
+  {
+    "disease": "Myasthenia gravis",
+    "definition": ""
+  },
+  {
+    "disease": "Arrhythmia",
+    "definition": ""
+  },
+  {
+    "disease": "Aortic insufficiency",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - macrocytic",
+    "definition": ""
+  },
+    {
+    "disease": "Nipple discharge",
+    "definition": ""
+  },
+  {
+    "disease": "Bleeding disorder (coagulopathy)",
+    "definition": ""
+  },
+  {
+    "disease": "Massive edema (anasarca)",
+    "definition": ""
+  },
+  {
+    "disease": "Stool - heme positive",
+    "definition": ""
+  },
+  {
+    "disease": "Duodenal ulcer",
+    "definition": ""
+  },
+  {
+    "disease": "Arthritis - psoriatic",
+    "definition": ""
+  },
+  {
+    "disease": "Drug addiction",
+    "definition": ""
+  },
+  {
+    "disease": "Acidosis - metabolic",
+    "definition": ""
+  },
+  {
+    "disease": "Neurodermatitis",
+    "definition": ""
+  },
+  {
+    "disease": "Tongue pain",
+    "definition": ""
+  },
+  {
+    "disease": "Apnea",
+    "definition": ""
+  },
+  {
+    "disease": "Scar",
+    "definition": ""
+  },
+  {
+    "disease": "Delirium - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Autism spectrum disorder (ASD)",
+    "definition": ""
+  },
+  {
+    "disease": "Pituitary adenoma",
+    "definition": ""
+  },
+  {
+    "disease": "Choking",
+    "definition": ""
+  },
+  {
+    "disease": "Penis disorder",
+    "definition": ""
+  },
+  {
+    "disease": "Breast discharge",
+    "definition": ""
+  },
+  {
+    "disease": "Aortic valve abnormality",
+    "definition": ""
+  },
+  {
+    "disease": "Tendon injury",
+    "definition": ""
+  },
+  {
+    "disease": "Breast disease - fibrocystic",
+    "definition": ""
+  },
+  {
+    "disease": "Achilles tendon rupture",
+    "definition": ""
+  },
+  {
+    "disease": "Human bite - assault",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - from chronic disease",
+    "definition": ""
+  },
+  {
+    "disease": "Meningitis - aseptic",
+    "definition": ""
+  },
+  {
+    "disease": "Diabetic nephropathy - adult controlled",
+    "definition": ""
+  },
+  {
+    "disease": "Avascular necrosis",
+    "definition": ""
+  },
+  {
+    "disease": "Cervical adenitis",
+    "definition": ""
+  },
+  {
+    "disease": "Dermatitis - chronic",
+    "definition": ""
+  },
+  {
+    "disease": "Vulvitis",
+    "definition": ""
+  },
+  {
+    "disease": "Cervix incompetent",
+    "definition": ""
+  },
+  {
+    "disease": "Inflammatory bowel disease (IBD)",
+    "definition": ""
+  },
+  {
+    "disease": "Bronchiectasis",
+    "definition": ""
+  },
+  {
+    "disease": "Phimosis",
+    "definition": ""
+  },
+  {
+    "disease": "Spondylolisthesis",
+    "definition": ""
+  },
+  {
+    "disease": "Adenocarcinoma",
+    "definition": ""
+  },
+  {
+    "disease": "Psychosis - atypical",
+    "definition": ""
+  },
+  {
+    "disease": "Ankylosing spondylosis",
+    "definition": ""
+  },
+  {
+    "disease": "Hepatitis - alcohol",
+    "definition": ""
+  },
+  {
+    "disease": "Anaphylaxis",
+    "definition": ""
+  },
+  {
+    "disease": "Tooth - displaced",
+    "definition": ""
+  },
+  {
+    "disease": "Hodgkin's lymphoma",
+    "definition": ""
+  },
+  {
+    "disease": "Mouth sores",
+    "definition": ""
+  },
+  {
+    "disease": "Compulsive scratching",
+    "definition": ""
+  },
+  {
+    "disease": "Sodium - high (hypernatremia)",
+    "definition": ""
+  },
+  {
+    "disease": "Bone pain",
+    "definition": ""
+  },
+  {
+    "disease": "Adrenal insufficiency",
+    "definition": ""
+  },
+  {
+    "disease": "Orchitis",
+    "definition": ""
+  },
+  {
+    "disease": "Arthritis - septic",
+    "definition": ""
+  },
+  {
+    "disease": "Pituitary tumor",
+    "definition": ""
+  },
+  {
+    "disease": "Excoriation",
+    "definition": ""
+  },
+  {
+    "disease": "Pityriasis alba",
+    "definition": ""
+  },
+  {
+    "disease": "Frostbite",
+    "definition": ""
+  },
+  {
+    "disease": "Non-Q-wave heart attack",
+    "definition": ""
+  },
+  {
+    "disease": "Acanthosis nigricans",
+    "definition": ""
+  },
+  {
+    "disease": "Trauma - minor",
+    "definition": ""
+  },
+  {
+    "disease": "Elbow sprain",
+    "definition": ""
+  },
+  {
+    "disease": "RSV bronchiolitis",
+    "definition": ""
+  },
+  {
+    "disease": "Keratosis",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonary abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Mitral valve disorder",
+    "definition": ""
+  },
+  {
+    "disease": "Mycosis fungoides",
+    "definition": ""
+  },
+  {
+    "disease": "Coccyx/sacrum fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Heart disease - congenital",
+    "definition": ""
+  },
+  {
+    "disease": "Angina - recurrent",
+    "definition": ""
+  },
+  {
+    "disease": "Leg infection",
+    "definition": ""
+  },
+  {
+    "disease": "Anal fistula",
+    "definition": ""
+  },
+  {
+    "disease": "Liver disease - alcoholic",
+    "definition": ""
+  },
+  {
+    "disease": "Hemiparesis",
+    "definition": ""
+  },
+  {
+    "disease": "Pneumonia - interstitial",
+    "definition": ""
+  },
+    {
+    "disease": "Adrenal cortical adenoma",
+    "definition": ""
+  },
+  {
+    "disease": "Flatulence (gas)",
+    "definition": ""
+  },
+  {
+    "disease": "Metastatic adenocarcinoma",
+    "definition": ""
+  },
+  {
+    "disease": "Small for gestational age (SGA)",
+    "definition": ""
+  },
+  {
+    "disease": "Vasculitis - leukocytoclastic",
+    "definition": ""
+  },
+  {
+    "disease": "Aortic aneurysm",
+    "definition": ""
+  },
+  {
+    "disease": "Myositis",
+    "definition": ""
+  },
+  {
+    "disease": "Granuloma annulare",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonary artery hypertension (PAH)",
+    "definition": ""
+  },
+  {
+    "disease": "Platelets - high (thrombocytosis)",
+    "definition": ""
+  },
+  {
+    "disease": "Coma - hyperosmolar nonketotic (HONK)",
+    "definition": ""
+  },
+  {
+    "disease": "Aortic dissection",
+    "definition": ""
+  },
+  {
+    "disease": "Peptic ulcer - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Adenoma - sebaceous",
+    "definition": ""
+  },
+  {
+    "disease": "Urticaria - chronic",
+    "definition": ""
+  },
+  {
+    "disease": "Meconium aspiration syndrome",
+    "definition": ""
+  },
+  {
+    "disease": "Periodontal abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Talus fracture",
+    "definition": ""
+  },
+  {
+    "disease": "Dysphasia",
+    "definition": ""
+  },
+  {
+    "disease": "Erythrasma",
+    "definition": ""
+  },
+  {
+    "disease": "Comedo",
+    "definition": ""
+  },
+  {
+    "disease": "Social phobia",
+    "definition": ""
+  },
+  {
+    "disease": "Amnesia",
+    "definition": ""
+  },
+  {
+    "disease": "Peritonitis - spontaneous bacterial",
+    "definition": ""
+  },
+  {
+    "disease": "Fibrous papule",
+    "definition": ""
+  },
+  {
+    "disease": "Nevus - epidermal",
+    "definition": ""
+  },
+  {
+    "disease": "Atrial septal defect (ASD)",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - pernicious",
+    "definition": ""
+  },
+  {
+    "disease": "Liver (hepatic) cancer",
+    "definition": ""
+  },
+  {
+    "disease": "Umbilical granuloma",
+    "definition": ""
+  },
+  {
+    "disease": "Perforated viscus",
+    "definition": ""
+  },
+  {
+    "disease": "Agoraphobia with panic attacks",
+    "definition": ""
+  },
+  {
+    "disease": "Suspected child abuse",
+    "definition": ""
+  },
+  {
+    "disease": "Berry aneurysm",
+    "definition": ""
+  },
+  {
+    "disease": "Heart attack (myocardial infarction)",
+    "definition": ""
+  },
+  {
+    "disease": "Ovarian abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Amniotic fluid level - low (oligohydramnios)",
+    "definition": ""
+  },
+  {
+    "disease": "Testicular cancer",
+    "definition": ""
+  },
+  {
+    "disease": "Drug eruption - fixed",
+    "definition": ""
+  },
+  {
+    "disease": "Juvenile rheumatoid arthritis (JRA)",
+    "definition": ""
+  },
+  {
+    "disease": "Panniculitis",
+    "definition": ""
+  },
+  {
+    "disease": "Telangiectasia",
+    "definition": ""
+  },
+  {
+    "disease": "Sixth (abducens) nerve palsy",
+    "definition": ""
+  },
+  {
+    "disease": "Proctitis",
+    "definition": ""
+  },
+  {
+    "disease": "Pericarditis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Nail infection (paronychia) - long-term",
+    "definition": ""
+  },
+  {
+    "disease": "Encephalopathy - anoxic",
+    "definition": ""
+  },
+  {
+    "disease": "Dementia - multi-infarction",
+    "definition": ""
+  },
+  {
+    "disease": "Whiplash injury",
+    "definition": ""
+  },
+  {
+    "disease": "Cocaine abuse - episodic",
+    "definition": ""
+  },
+  {
+    "disease": "Lichen sclerosus et atrophicus",
+    "definition": ""
+  },
+  {
+    "disease": "Abnormally large head (macrocephaly)",
+    "definition": ""
+  },
+  {
+    "disease": "Urea nitrogen - high (uremia/prerenal azotemia)",
+    "definition": ""
+  },
+  {
+    "disease": "Nocturnal dyspnea",
+    "definition": ""
+  },
+  {
+    "disease": "Dermatographism",
+    "definition": ""
+  },
+  {
+    "disease": "Atelectasis",
+    "definition": ""
+  },
+  {
+    "disease": "Itching - rectal (pruritus ani)",
+    "definition": ""
+  },
+  {
+    "disease": "Drug abuse - IV",
+    "definition": ""
+  },
+  {
+    "disease": "Kerion",
+    "definition": ""
+  },
+    {
+    "disease": "Angular cheilitis (perleche)",
+    "definition": ""
+  },
+  {
+    "disease": "Placenta previa",
+    "definition": ""
+  },
+  {
+    "disease": "Colic - infantile",
+    "definition": ""
+  },
+  {
+    "disease": "Pickwickian syndrome",
+    "definition": ""
+  },
+  {
+    "disease": "Esophageal stricture",
+    "definition": ""
+  },
+  {
+    "disease": "Maxillofacial abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Psychosis - acute toxic",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - hemolytic",
+    "definition": ""
+  },
+  {
+    "disease": "Ketoacidosis - alcohol",
+    "definition": ""
+  },
+  {
+    "disease": "Hilar adenopathy",
+    "definition": ""
+  },
+  {
+    "disease": "Urine output - low (oliguria)",
+    "definition": ""
+  },
+  {
+    "disease": "Hepatitis - acute",
+    "definition": ""
+  },
+  {
+    "disease": "Renal cell adenocarcinoma",
+    "definition": ""
+  },
+  {
+    "disease": "Prinzmetal's angina",
+    "definition": ""
+  },
+  {
+    "disease": "Pancreatic pseudocyst",
+    "definition": ""
+  },
+  {
+    "disease": "Precocious puberty",
+    "definition": ""
+  },
+  {
+    "disease": "Synovitis",
+    "definition": ""
+  },
+  {
+    "disease": "Polyp - adenomatous",
+    "definition": ""
+  },
+  {
+    "disease": "Diabetic nephropathy - adult uncontrolled",
+    "definition": ""
+  },
+  {
+    "disease": "Respiratory arrest",
+    "definition": ""
+  },
+  {
+    "disease": "Glaucoma - primary angle closure",
+    "definition": ""
+  },
+  {
+    "disease": "Antisocial personality disorder",
+    "definition": ""
+  },
+  {
+    "disease": "Fibroma",
+    "definition": ""
+  },
+  {
+    "disease": "Sarcoma",
+    "definition": ""
+  },
+  {
+    "disease": "Gum (periodontal) disease",
+    "definition": ""
+  },
+  {
+    "disease": "Aspiration",
+    "definition": ""
+  },
+  {
+    "disease": "Throat mass",
+    "definition": ""
+  },
+  {
+    "disease": "Anemia - folate deficiency",
+    "definition": ""
+  },
+  {
+    "disease": "Pulmonic stenosis",
+    "definition": ""
+  },
+  {
+    "disease": "Lactose intolerance",
+    "definition": ""
+  },
+  {
+    "disease": "Lymph node enlargement - chest (mediastinal lymphadenopathy)",
+    "definition": ""
+  },
+  {
+    "disease": "Refractive error",
+    "definition": ""
+  },
+  {
+    "disease": "Liver (hepatic) abscess",
+    "definition": ""
+  },
+  {
+    "disease": "Pustulosis of palms and soles",
+    "definition": ""
+  },
+  {
+    "disease": "Anorexia nervosa",
+    "definition": ""
+  },
+  {
+    "disease": "Ulnar nerve injury",
+    "definition": ""
+  },
+  {
+    "disease": "Amphetamine abuse",
+    "definition": ""
+  },
+  {
+    "disease": "Fasciitis - nodular",
+    "definition": ""
+  },
+  {
+    "disease": "Costovertebral angle pain",
+    "definition": ""
+  },
+  {
+    "disease": "Hepatitis - chronic active",
+    "definition": ""
+  },
+  {
+    "disease": "Loss of smell (anosmia)",
+    "definition": ""
+  },
+  {
+    "disease": "Ileitis",
+    "definition": ""
+  },
+  {
+    "disease": "Odontogenic infection",
+    "definition": ""
+  },
+  {
+    "disease": "Alpha thalassemia",
+    "definition": ""
+  }
+]
