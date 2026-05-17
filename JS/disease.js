@@ -13,28 +13,34 @@ const loadingText =
 const resultCount =
   document.getElementById("result-count");
 
+let localDiseaseData = [];
+
+/* ---------- LOAD LOCAL JSON ---------- */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  fetch("JSON/disease.json")
+    .then(response => response.json())
+    .then(data => {
+      localDiseaseData = data.contangent;
+
+      searchInput.value = "a";
+      searchDisease();
+    })
+    .catch(error => {
+      console.error("Error loading disease.json:", error);
+    });
+
+});
+
 /* ---------- SEARCH EVENTS ---------- */
 
 searchBtn.addEventListener("click", searchDisease);
 
 searchInput.addEventListener("keydown", event => {
-
   if (event.key === "Enter") {
-
     searchDisease();
-
   }
-
-});
-
-/* ---------- AUTO LOAD ---------- */
-
-document.addEventListener("DOMContentLoaded", () => {
-
-  searchInput.value = "a";
-
-  searchDisease();
-
 });
 
 /* ---------- SEARCH FUNCTION ---------- */
@@ -45,7 +51,6 @@ function searchDisease() {
     searchInput.value.trim();
 
   if (keyword === "") {
-
     diseaseResults.innerHTML = `
       <p class="no-result">
         Please enter a disease or condition keyword.
@@ -53,24 +58,17 @@ function searchDisease() {
     `;
 
     resultCount.textContent = "";
-
     return;
-
   }
 
-  loadingText.textContent =
-    "Loading disease data...";
-
+  loadingText.textContent = "Loading disease data...";
   diseaseResults.innerHTML = "";
-
   resultCount.textContent = "";
 
   fetch(
     `https://clinicaltables.nlm.nih.gov/api/conditions/v3/search?terms=${encodeURIComponent(keyword)}`
   )
-
     .then(response => response.json())
-
     .then(data => {
 
       loadingText.textContent = "";
@@ -78,15 +76,12 @@ function searchDisease() {
       const results = data[3];
 
       if (!results || results.length === 0) {
-
         diseaseResults.innerHTML = `
           <p class="no-result">
             No disease or condition found for "${keyword}".
           </p>
         `;
-
         return;
-
       }
 
       resultCount.textContent =
@@ -95,7 +90,6 @@ function searchDisease() {
       displayDiseaseResults(results);
 
     })
-
     .catch(error => {
 
       loadingText.textContent = "";
@@ -107,14 +101,9 @@ function searchDisease() {
         </p>
       `;
 
-      console.error(
-        "Error fetching API:",
-        error
-      );
+      console.error("Error fetching API:", error);
 
     });
-
-
 }
 
 /* ---------- DISPLAY RESULTS ---------- */
@@ -125,40 +114,29 @@ function displayDiseaseResults(results) {
 
   results.forEach(item => {
 
-    let definitionInfo = "";
-    const diseaseName =
-      item[0];
+    const diseaseName = item[0];
 
-    fetch('disease.json')
-      .then(response => response.json())
-      .then(data => {
+    const match = localDiseaseData.find(dis =>
+      dis.disease.toLowerCase() === diseaseName.toLowerCase()
+    );
 
-      const match = data.contangent.find(dis =>
-      dis.disease === diseaseName
-      );
-
-     if (match) {
-        definitionInfo = dis.definition;
-      } else {
-        definitionInfo = 'Definition not found';
-     }
-
-    });
+    const definitionInfo =
+      match && match.definition !== ""
+        ? match.definition
+        : "Definition not found.";
 
     diseaseResults.innerHTML += `
-
       <div class="disease-card">
 
         <h2>${diseaseName}</h2>
 
         <p>
+          <strong>Definition:</strong>
           ${definitionInfo}
         </p>
 
       </div>
-
     `;
 
   });
-
 }
