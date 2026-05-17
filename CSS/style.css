@@ -1,23 +1,37 @@
 body{
     margin: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
+
+/* =========================
+   HEADER / NAVBAR
+========================= */
 
 .header{
     height: 110px;
     background-color: #f9f6e6;
     padding-top: 10px;
     padding-left: clamp(0px, 9%, 100px);
+    padding-right: 30px;
     display: flex;
     align-items: center;
+    position: relative;
 }
+
 .logo{
     width: 125px;
     height: 100px;
 }
+
+/* Navigation Menu */
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Button */
 .menu-button{
     background-color: #f9f6e6;
     border: none;
@@ -28,55 +42,73 @@ body{
     margin-top: 5px;
     margin-left: 14px;
     margin-right: 14px;
+    padding: 8px 10px;
     display: inline-block;
 }
+
 .menu-button:hover{
     background-color: #e1ddc3;
 }
 
-.footer {
-  text-align: center;
-  padding: 10px;
-  background: #d6d1c4;
-  margin-top: 20px;
+/* Hamburger Button */
+.hamburger-btn{
+    display: none;
+    margin-left: auto;
+    background: none;
+    border: none;
+    font-size: 38px;
+    cursor: pointer;
 }
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #d6d1c4;
+    margin-top: 20px;
+}
+
+/* =========================
+   SMOOTH SCROLL
+========================= */
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+/* =========================
+   BACK TO TOP BUTTON
+========================= */
+
 #backToTopBtn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-
-  padding: 12px 18px;
-
-  border: none;
-  border-radius: 50px;
-
-  background-color: #d6d1c4;
-  color: black;
-
-  font-size: 16px;
-  font-weight: bold;
-
-  cursor: pointer;
-
-  display: none;
-
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-
-  transition: 0.3s;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: #d6d1c4;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
 #backToTopBtn:hover {
-  background-color: #bcb69d;
+    background-color: #bcb69d;
 }
 
+/* =========================
+   FONT CONTROLS
+========================= */
 
-
-/* Container holding the buttons to the bottom left */
+/* Container holding buttons */
 .font-controls {
     position: fixed;
     bottom: 20px;
@@ -84,24 +116,128 @@ html {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    z-index: 99999; 
+    z-index: 99999;
 }
 
-/* The individual +, -, and reset buttons */
+/* Font buttons */
 .font-controls button {
-    background-color: #dcdcdc; 
+    background-color: #dcdcdc;
     border: none;
     padding: 5px 10px;
     font-size: 14px;
     color: black;
     cursor: pointer;
     text-align: center;
-    width: 50px; 
+    width: 50px;
     font-family: sans-serif;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
-/* Hover effect */
+/* Hover */
 .font-controls button:hover {
     background-color: #c0c0c0;
+}
+
+/* =========================
+   MOBILE RESPONSIVE NAVBAR
+========================= */
+
+@media (max-width: 768px){
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header{
+        height: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 70px;
+        height: 60px;
+    }
+
+    /* Show hamburger */
+    .hamburger-btn{
+        display: block;
+    }
+
+    /* Hide menu initially */
+    .nav-menu{
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: stretch;
+        z-index: 999;
+        border-top: 1px solid #ddd;
+    }
+
+    /* Show menu when active */
+    .nav-menu.active{
+        display: flex;
+    }
+
+    /* Mobile menu buttons */
+    .menu-button{
+        font-size: 22px;
+        margin: 0;
+        padding: 25px 30px;
+        border-bottom: 1px solid #ddd;
+        background-color: white;
+    }
+
+    .menu-button:hover{
+        background-color: #f9f6e6;
+    }
+
+    main,
+    .container,
+    .disease-container {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 30px 20px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    /* Hide font controls on small screen */
+    .font-controls{
+        display: none;
+    }
 }
