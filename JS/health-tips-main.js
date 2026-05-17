@@ -14,7 +14,7 @@ function loadTips() {
 
   loading.style.display = "block";
 
-  fetch("JSON/data.json")
+  fetch("JSON/health-tips-data.json")
     .then(res => res.json())
     .then(data => {
       allTips = data;
