@@ -44,3 +44,25 @@
   width: 70px;
   border-radius: 30px;
 }
+
+@media (max-width: 768px) {
+
+  .alphabet-filter {
+    width: 100%;
+  }
+
+  #alphabet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .alphabet-btn {
+    width: 52px;
+    height: 52px;
+  }
+
+  .alphabet-btn:first-child {
+    width: 75px;
+  }
+}

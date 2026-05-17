@@ -23,3 +23,19 @@
 .tips-content {
   margin-top: 70px;
 }
+
+@media (max-width: 768px) {
+
+  .search-filter-row {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .search-section {
+    width: 100%;
+  }
+
+  .tips-content {
+    margin-top: 40px;
+  }
+}
