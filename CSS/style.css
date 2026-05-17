@@ -5,6 +5,10 @@ body{
     min-height: 100vh;
 }
 
+main {
+    flex: 1;
+}
+
 /* =========================
    HEADER / NAVBAR
 ========================= */
@@ -70,6 +74,7 @@ body{
     background: #d6d1c4;
     margin-top: 20px;
 }
+
 
 /* =========================
    SMOOTH SCROLL
