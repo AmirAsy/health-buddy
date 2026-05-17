@@ -1,9 +1,10 @@
 .symptom-container {
     padding: 40px 50px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .symptom-container .top-row {
@@ -19,13 +20,11 @@
     margin: 0;
 }
 
-
 .symptom-container h2 {
     font-weight: normal;
     font-size: 22px;
     margin-bottom: 20px;
 }
-
 
 .symptom-container .content-grid {
     display: flex;
@@ -40,49 +39,39 @@
     gap: 20px;
 }
 
-/* Scrolling Checkbox List */
 .symptom-container .symptom-list {
     background-color: #cfcfcf;
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px;
     padding: 15px;
     height: 180px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    box-sizing: border-box;
 }
-
 
 .symptom-container .symptom-list label {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    
-    border-bottom: 1px solid #a8a8a8; 
-    padding-bottom: 8px; 
-    margin-bottom: 8px;  
+    justify-content: space-between;
+
+    border-bottom: 1px solid #a8a8a8;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
-/* Removes the divider line from the last item */
 .symptom-container .symptom-list label:last-child {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.symptom-container .others-input {
+.symptom-container .button-group {
     display: flex;
-    align-items: center;
     gap: 10px;
-}
-
-.symptom-container .others-input input {
-    border: none;
-    border-bottom: 1px solid #000;
-    outline: none;
-    width: 100px;
-    background: transparent;
+    width: 100%;
 }
 
 .symptom-container .show-results-btn {
@@ -92,79 +81,103 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    width: fit-content;
-    transition: background-color 0.2s ease;
+    flex: 1;
 }
 
 .symptom-container .show-results-btn:hover {
     background-color: #c0c0c0;
 }
 
-/* Result Box Styling */
-.symptom-container .right-panel {
-    flex-grow: 1;
+.symptom-container .reset-btn {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.symptom-container .result-box {    
+.symptom-container .reset-btn:hover {
+    background-color: #f1b0b7;
+}
+
+.symptom-container .right-panel {
+    flex: 1;
+}
+
+.symptom-container .result-box {
     border: 3px solid #000;
-    height: 300px;
-    width: 450px;
+    min-height: 300px;
+    width: 100%;
+    max-width: 450px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
+
     padding: 30px;
     font-size: 18px;
     color: #333;
+
     overflow-y: auto;
     background-color: #fafafa;
+    box-sizing: border-box;
 }
 
-.symptom-container .reset-btn {
-    background-color: #f8d7da; /* A soft red color */
-    color: #721c24;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 10px; /* Adds space between the two buttons */
-}
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
 
-.symptom-container .reset-btn:hover {
-    background-color: #f1b0b7;
-}
+    .symptom-container {
+        padding: 35px 22px;
+        width: 100%;
+    }
 
-/* Creates a row layout specifically for the buttons */
-.symptom-container .button-group {
-    display: flex;
-    gap: 10px; /* Puts a nice space between the two buttons */
-    width: 100%;
-}
+    .symptom-container h1 {
+        font-size: 32px;
+    }
 
-/* Updated Reset Button Style */
-.symptom-container .reset-btn {
-    background-color: #f8d7da; 
-    color: #721c24;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    
-}
+    .symptom-container h2 {
+        font-size: 22px;
+    }
 
-/* Update your existing show-results-btn to also use flex: 1 */
-.symptom-container .show-results-btn {
-    background-color: #e0e0e0;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    flex: 1; /* Makes the button take up equal space in the row */
-}
+    .symptom-container .content-grid {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
 
-.symptom-container .reset-btn:hover {
-    background-color: #f1b0b7;
+    .symptom-container .left-panel {
+        width: 100%;
+    }
+
+    .symptom-container .symptom-list {
+        width: 100%;
+        height: 220px;
+        border-radius: 15px;
+    }
+
+    .symptom-container .button-group {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .symptom-container .show-results-btn,
+    .symptom-container .reset-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .symptom-container .right-panel {
+        width: 100%;
+    }
+
+    .symptom-container .result-box {
+        width: 100%;
+        max-width: 100%;
+        min-height: 250px;
+        padding: 20px;
+        font-size: 16px;
+    }
 }
