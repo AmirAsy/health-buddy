@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       localDiseaseData = data.contangent;
 
-      searchInput.value = "a";
+      searchInput.value = " ";
       searchDisease();
     })
     .catch(error => {
