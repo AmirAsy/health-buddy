@@ -1,5 +1,23 @@
-input {
-  width: 250px;
-  padding: 8px;
-  border-radius: 10px;
+/* Search Input */
+
+.search-section input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 18px;
+  border: 2px solid #333;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Sort Dropdown */
+
+#sort-select {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 15px;
+  border: 2px solid #333;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
