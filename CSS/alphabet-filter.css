@@ -1,5 +1,6 @@
 .alphabet-filter {
-  width: 700px;
+  flex: 1;
+  max-width: 700px;
 }
 
 .alphabet-filter p {
