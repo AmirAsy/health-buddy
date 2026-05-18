@@ -131,7 +131,7 @@ function displayDiseaseResults(results) {
         <h2>${diseaseName}</h2>
 
         <p>
-          <strong>Definition:</strong>
+          <strong>Definition: </strong>
           ${definitionInfo}
         </p>
 
