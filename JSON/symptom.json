@@ -1,0 +1,30 @@
+[
+  { 
+    "symptom": "Fever", 
+    "conditions": ["Flu", "COVID-19", "Dengue", "Malaria", "Stomach Bug"] 
+  },
+  { 
+    "symptom": "Headache", 
+    "conditions": ["Flu", "COVID-19", "Dengue", "Migraine", "Common Cold", "Stress"] 
+  },
+  { 
+    "symptom": "Coughing", 
+    "conditions": ["Flu", "COVID-19", "Common Cold", "Bronchitis", "Allergies"] 
+  },
+  { 
+    "symptom": "Runny Nose", 
+    "conditions": ["Common Cold", "Allergies", "Flu", "COVID-19"] 
+  },
+  { 
+    "symptom": "Nausea", 
+    "conditions": ["Food Poisoning", "Stomach Bug", "Dengue", "Migraine"] 
+  },
+  { 
+    "symptom": "Fatigue", 
+    "conditions": ["Flu", "COVID-19", "Dengue", "Common Cold", "Anemia", "Stress"] 
+  },
+  { 
+    "symptom": "Chills", 
+    "conditions": ["Flu", "COVID-19", "Malaria", "Stomach Bug", "Dengue"] 
+  }
+]
