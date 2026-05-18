@@ -146,16 +146,22 @@ html {
     flex-direction: column;
     gap: 8px;
     position: absolute;
-    left: 60px;
+    left: 48px;
     top: 0;
     background: white;
     padding: 12px;
-    border-radius: 12px;
+    border-radius: 0 12px 12px 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* Show menu when hover */
-.font-controls:hover .font-controls-buttons {
+/* Keep menu open while hover/focus */
+.font-controls:hover,
+.font-controls:focus-within {
+    display: block;
+}
+
+.font-controls:hover .font-controls-buttons,
+.font-controls:focus-within .font-controls-buttons {
     display: flex;
 }
 
