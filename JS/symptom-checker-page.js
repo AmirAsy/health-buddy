@@ -1,78 +1,74 @@
+
+let symptomDatabase = []; 
+
+fetch('JSON/symptom.json')
+    .then(response => response.json())
+    .then(data => {
+        symptomDatabase = data; 
+    })
+    .catch(error => console.error("Error loading JSON database:", error));
+
+
 function showResults() {
-    
-    // Gather selected symptoms
-    const checkboxes = document.querySelectorAll('.symptom-checkbox:checked');
-    let selectedSymptoms = [];
-    
-    checkboxes.forEach((box) => {
-        selectedSymptoms.push(box.value);
-    });
-
-
     const resultBox = document.getElementById('result-display');
+    const checkboxes = document.querySelectorAll('.symptom-checkbox:checked');
     
-    if (selectedSymptoms.length === 0) {
-        resultBox.innerHTML = "<div style='text-align:center; width:100%; color: #666;'>Please select a symptom.</div>";
-        return; // Stop the function here if nothing is selected    
+    // Safety check 1: Did they check any boxes?
+    if (checkboxes.length === 0) {
+        resultBox.innerHTML = '<div style="text-align:center; width:100%; color: #666;">Please select at least one symptom first.</div>';
+        return;
     }
 
-    // Simple Disease Database
-    const diseaseDatabase = [
-        { name: "Common Cold", symptoms: ["Coughing", "Runny Nose"] },
-        { name: "Flu (Influenza)", symptoms: ["Fever", "Headache", "Fatigue", "Chills"] },
-        { name: "COVID-19", symptoms: ["Fever", "Coughing", "Fatigue"] },
-        { name: "Migraine", symptoms: ["Headache", "Nausea"] },
-        { name: "Food Poisoning", symptoms: ["Nausea", "Fever", "Chills"] },
-        { name: "Allergies", symptoms: ["Runny Nose", "Coughing"] }
-    ];
+    // Safety check 2: Did the database load?
+    if (symptomDatabase.length === 0) {
+        resultBox.innerHTML = '<div style="text-align:center; width:100%; color: red;">Error: Database not loaded.</div>';
+        return;
+    }
 
-    let possibleConditions = [];
+    // Collect lists of conditions for EVERY checked symptom
+    let allMatchedArrays = [];
 
-    // Match symptoms to diseases
-    diseaseDatabase.forEach(disease => {
-        let matchFound = false;
-        
-        // If the user selected a symptom that exists in this disease's array
-        disease.symptoms.forEach(symp => {
-            if(selectedSymptoms.includes(symp)) {
-                matchFound = true;
-            }
-        });
-
-        if (matchFound) {
-            possibleConditions.push(disease.name);
+    checkboxes.forEach(box => {
+        const match = symptomDatabase.find(item => item.symptom === box.value);
+        if (match) {
+            allMatchedArrays.push(match.conditions);
         }
     });
 
-    // HTML output for the Result Box
-    let outputHTML = `<strong>Symptoms noted:</strong> ${selectedSymptoms.join(", ")}<br><br>`;
-    
-    if (possibleConditions.length > 0) {
-        outputHTML += "<strong>Possible conditions:</strong>";
-        outputHTML += "<ul style='margin-top: 5px;'>";
-        
-        // Loop through matches and create list items
-        possibleConditions.forEach(condition => {
-            outputHTML += `<li>${condition}</li>`;
-        });
-        
-        outputHTML += "</ul>";
-        outputHTML += "<br><span style='font-size: 14px; color: #d9534f;'><em>*Disclaimer: This is for educational purposes. Please consult a doctor for an accurate diagnosis.</em></span>";
-    } else {
-        outputHTML += "<strong>Possible conditions:</strong><br>No specific match found in our database. Please consult a healthcare professional.";
+    //filter
+    //assuming the conditions from the FIRST checked box are our baseline
+    let finalConditions = allMatchedArrays[0];
+
+    // loop through the remaining boxes user checked
+    for (let i = 1; i < allMatchedArrays.length; i++) {
+        // We filter our baseline list. We only keep a disease if it ALSO appears in the next box's list!
+        finalConditions = finalConditions.filter(disease => allMatchedArrays[i].includes(disease));
     }
 
-    resultBox.innerHTML = outputHTML;
+    // If no disease is found
+    if (finalConditions.length === 0) {
+        resultBox.innerHTML = '<div style="text-align:center; width:100%; color: #666;">Unfortunately, your symptoms does not match any disease in our database,please refer to a doctor.</div>';
+        return;
+    }
+
+    // Print the final results
+    resultBox.innerHTML = `
+        <h3 style="margin-top:0;">Possible Conditions:</h3>
+        <ul style="padding-left: 20px; text-align: left; line-height: 1.6;">
+            <li>${finalConditions.join("</li><li>")}</li>
+        </ul>
+        <p style="color: red; font-size: 13px; margin-top: auto; padding-top: 20px; font-weight: bold;">
+            *Disclaimer: This website is for educational purposes only. Please consult a doctor.*
+        </p>
+    `;
 }
 
 function resetChecker() {
-    // 1. Uncheck all the symptom checkboxes
+    // Uncheck all the boxes
     const checkboxes = document.querySelectorAll('.symptom-checkbox');
-    checkboxes.forEach((box) => {
-        box.checked = false;
-    });
-
-    // 2. Reset the results box back to its default message
+    checkboxes.forEach(box => box.checked = false);
+    
+    // Reset the text in the result box to its default state
     const resultBox = document.getElementById('result-display');
-    resultBox.innerHTML = "<div style='text-align:center; width:100%; color: #666;'>Select your symptoms and click \"Show Results\"</div>";
+    resultBox.innerHTML = '<div style="text-align:center; width:100%; color: #666;">Select your symptoms and click "Show Results"</div>';
 }
