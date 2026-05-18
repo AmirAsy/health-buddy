@@ -2,6 +2,7 @@
   max-width: 1200px;
   margin: auto;
   padding: 20px;
+  overflow-x: hidden;
 }
 
 /* Search + Filter */
@@ -9,14 +10,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 80px;
-
+  gap: 40px;
   margin-top: 40px;
 }
 
 /* Search Section */
 .search-section {
-  width: 350px;
+  width: 320px;
+  flex-shrink: 0;
 }
 
 /* Tips Content */
