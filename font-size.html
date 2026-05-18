@@ -1,24 +1,33 @@
-<div class="font-controls" aria-label="Font size controls">
+<div class="font-controls">
 
+    <!-- Small left icon -->
     <button
-        onclick="adjustFontSize('increase')"
-        aria-label="Increase font size"
-    >
-        +
-    </button>
+        class="accessibility-toggle"
+        aria-label="Accessibility Menu"
+    >♿</button>
 
-    <button
-        onclick="adjustFontSize('decrease')"
-        aria-label="Decrease font size"
+    <!-- Hidden menu -->
+    <div
+        class="font-controls-buttons"
+        aria-label="Font size controls"
     >
-        -
-    </button>
 
-    <button
-        onclick="adjustFontSize('reset')"
-        aria-label="Reset font size"
-    >
-        reset
-    </button>
+        <button
+            onclick="adjustFontSize('increase')"
+        >
+            Increase Text Size
+        </button>
 
-</div>
+        <button
+            onclick="adjustFontSize('decrease')"
+        >
+            Decrease Text Size
+        </button>
+
+        <button
+            onclick="adjustFontSize('reset')"
+        >
+            Reset Text Size
+        </button>
+
+    </div>
